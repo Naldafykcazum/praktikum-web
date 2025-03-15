@@ -3,12 +3,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f3c5;
+    background-color: #ffe52c;
 }
 
 header {
-    background-color: #e9e648;
-    color: rgb(0, 0, 0);
+    background-color: #faa622;
+    color: #FFFFD7;
     text-align: center;
     padding: 20px 0;
 }
@@ -18,7 +18,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #888529;
+    background-color: #c22303;
     margin: 0;
 }
 
@@ -27,7 +27,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: rgb(0, 0, 0);
+    color: #FFFFD7;
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
@@ -35,13 +35,24 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #004494;
+    background-color: #FFCF00;
     border-radius: 5px;
+}
+
+.banner {
+    background-image: url('banner.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 .kategori, .buku-unggulan {
     text-align: center;
-    margin: 20px auto;
+    margin: 40px auto;
     max-width: 800px;
 }
 
@@ -51,7 +62,7 @@ nav ul li a:hover {
 }
 
 .kategori ul li {
-    background-color: #ffc107;
+    background-color: #c4d70c;
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
@@ -66,10 +77,10 @@ nav ul li a:hover {
 }
 
 .buku {
-    background-color: white;
+    background-color: #e1e2bb;
     padding: 15px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px #0000001a;
     text-align: center;
     max-width: 200px;
 }
