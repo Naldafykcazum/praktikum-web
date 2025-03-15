@@ -1,0 +1,99 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://bloody-disgusting.com/wp-content/uploads/2016/08/Resident-Evil-Franchise.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.quiz-box {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.9); /* Lebih gelap & tanpa blur */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease-in-out;
+}
+
+.quiz-box:hover {
+    transform: scale(1.02);
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff3131;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.btn-option {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+    background: #3e3e5e;
+    color: white;
+}
+
+.btn-option:hover {
+    background: #ff3131;
+    transform: translateY(-3px);
+}
+
+#feedback {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.correct {
+    color: #00ff00;
+}
+
+.wrong {
+    color: #ff3131;
+}
+
+#next-btn {
+    background: #ff8c00;
+    color: white;
+    font-size: 18px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+#next-btn:hover {
+    background: #ffa500;
+    transform: translateY(-3px);
+}
+
+#result-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.d-none {
+    display: none;
+}
