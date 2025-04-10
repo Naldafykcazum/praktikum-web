@@ -7,7 +7,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('https://bloody-disgusting.com/wp-content/uploads/2016/08/Resident-Evil-Franchise.jpg') no-repeat center center;
+    background: url('https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -17,7 +17,7 @@ body {
     width: 100%;
     padding: 20px;
     border-radius: 15px;
-    background: rgba(0, 0, 0, 0.9); /* Lebih gelap & tanpa blur */
+    background: rgba(0, 0, 0, 0.9); 
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
     transition: transform 0.3s ease-in-out;
 }
